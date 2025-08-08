@@ -1,2 +1,25 @@
-# Rohitt_Binance_Bot
-Binance Futures Order Bot is a command-line Python application that allows users to place and manage USDT-Margined Futures orders on Binance. The bot supports market and limit orders with built-in validation, structured logging, and is extendable to advanced strategies such as OCO, Stop-Limit, TWAP, and Grid Trading.
+## Features
+- Market and Limit Order support
+- Input validation and logging
+- Extendable for advanced strategies (OCO, TWAP, etc.)
+
+## Setup
+1. Install dependencies:
+```
+pip install python-binance
+```
+
+2. Update your Binance API credentials in `src/utils.py`.
+
+## Usage
+Market Order:
+```
+python src/market_orders.py BTCUSDT BUY 0.01
+```
+
+Limit Order:
+```
+python src/limit_orders.py BTCUSDT SELL 0.01 30000
+```
+
+Logs will be written to `bot.log`.
