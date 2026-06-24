@@ -13,7 +13,7 @@ pip install python-binance
 
 ## Usage
 Market Order:
-```
+``
 python src/market_orders.py BTCUSDT BUY 0.01
 ```
 
