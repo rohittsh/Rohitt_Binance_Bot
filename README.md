@@ -16,7 +16,6 @@ Market Order:
 ``
 python src/market_orders.py BTCUSDT BUY 0.01
 ```
-
 Limit Order:
 ```
 python src/limit_orders.py BTCUSDT SELL 0.01 30000
